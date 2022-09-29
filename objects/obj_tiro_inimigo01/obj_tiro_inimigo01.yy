@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_tiro_player",
+  "name": "obj_tiro_inimigo01",
   "spriteId": {
-    "name": "spr_tiro_player",
-    "path": "sprites/spr_tiro_player/spr_tiro_player.yy",
+    "name": "spr_tiro_inimigo01",
+    "path": "sprites/spr_tiro_inimigo01/spr_tiro_inimigo01.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,14 +27,11 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":7,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_inimigo_01","path":"objects/obj_inimigo_01/obj_inimigo_01.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Player",
-    "path": "folders/Objects/Player.yy",
+    "name": "Inimigos",
+    "path": "folders/Objects/Inimigos.yy",
   },
 }

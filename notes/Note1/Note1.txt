@@ -14,4 +14,22 @@
 	3.4 - Fazendo o jogador atirar ao apertar espaço - Feito
 	3.5 - Dando efeito legal ao tiro - Feito
 		3.5.1 - Fazendo ele nascer grande e depois de um tempo ficar pequeno - Feito
-	3.6 - Destruir o tiro quando ele sair da tela
+	3.6 - Destruir o tiro quando ele sair da tela - Feito
+	
+4 - Criando o primeiro inimigo
+	4.1 - Importando as sprites - Feito
+	4.2 - Criando o objeto - Feito
+	4.3 - Fazendo ele ir para baixo - Feito
+	
+5 - Fazendo o inimigo 01 atirar
+	5.1 - Importando as sprites de tiro do inimigo 01 - Feito
+	5.2 - Criar o objeto do tiro - Feito
+	5.3 - Fazendo o tiro ir para baixo - Feito
+	5.4 - Fazendo o inimigo atirar quando entra na room - Feito
+	5.5 - Aplicando efeito no tiro - Feito
+
+(Criação de métodos)
+
+6 - Fazendo o tiro do player acertar o inimigo
+	6.1 - Se destruir ao acertar o inimigo
+	6.2 - Criar o impacto do tiro do player
