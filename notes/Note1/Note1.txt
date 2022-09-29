@@ -43,4 +43,12 @@
 	7.4 - Fazer o tiro NÃO criar o impacto quando ele sair da room - Feito
 
 8 - Destruindo o inimigo quando ele levar um tiro!
-	8.1 - Fazendo com que o tiro do player também destrua o inimigo
+	8.1 - Fazendo com que o tiro do player também destrua o inimigo - Feito
+	8.2 - Fazer com que ao ser destruído o inimigo crie uma explosão - Feito
+		8.2.1 - Criar a sprite da explosão - Feito
+		8.2.2 - Criar o objeto explosão - Feito
+		8.2.3 - Fazer o inimigo instanciar a explosão ao morrer - Feito
+		8.2.4 - Fazer a explosão se destruir no final da animação - Feito
+	
+9 - Pequenos ajustes parte 1
+	9.1 - Fazendo o inimigo ser destruído ao sair da tela
