@@ -10,4 +10,8 @@
 3 - Atirando!
 	3.1 - Importando as sprites do tiro do player - Feito
 	3.2 - Criando o objeto do tiro do player - Feito
-	3.3 - Fazendo o tiro ir para cima
+	3.3 - Fazendo o tiro ir para cima - Feito
+	3.4 - Fazendo o jogador atirar ao apertar espaço - Feito
+	3.5 - Dando efeito legal ao tiro - Feito
+		3.5.1 - Fazendo ele nascer grande e depois de um tempo ficar pequeno - Feito
+	3.6 - Destruir o tiro quando ele sair da tela
