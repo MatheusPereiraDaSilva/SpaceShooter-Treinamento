@@ -36,10 +36,11 @@
 	6.3 - Fazendo o impacto do tiro desaparecer no final da animação - Feito
 	6.4 - Fazer o tiro NÃO criar o impacto quando ele sair da room - Feito
 
-7- Fazendo o tiro do inimigo acertar o player e ser destruído
+7 - Fazendo o tiro do inimigo acertar o player e ser destruído
 	7.1 - Se destruir ao acertar o player - Feito
 	7.2 - Criar o impacto do tiro do inimigo - Feito
 	7.3 - Fazendo o impacto do tiro desaparecer no final da animação - Feito
 	7.4 - Fazer o tiro NÃO criar o impacto quando ele sair da room - Feito
 
-
+8 - Destruindo o inimigo quando ele levar um tiro!
+	8.1 - Fazendo com que o tiro do player também destrua o inimigo
