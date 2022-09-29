@@ -51,4 +51,18 @@
 		8.2.4 - Fazer a explosão se destruir no final da animação - Feito
 	
 9 - Pequenos ajustes parte 1
-	9.1 - Fazendo o inimigo ser destruído ao sair da tela
+	9.1 - Fazendo o inimigo ser destruído ao sair da tela - Feito
+	9.2 - Deixando o nosso background mais melhor de bonito de charmoso de legal - Feito
+	9.3 - Deixando o nosso tiro mais bonito
+		9.3.1 - Criar a sprite do brilho - Feito
+		9.3.2 - Criar o draw event - Feito
+		9.3.3 - Desenhar o brilho dentro do draw event - Feito
+		9.3.4 - Alterar como a gpu processa a mistura de imagens - Feito
+		9.3.5 - Alterar o brilho - Feito
+		9.3.6 - Criar a variável global de cores no create para o tiro do inimigo escolher e mudar de cor
+		9.3.7 - Usar o lerp para diminuir o tamanho - Feito
+	9.4 - Deixando as explosões mais bonitas
+		9.4.1 - Criar o Draw event
+		9.4.2 - Se desenhar
+		9.4.3 - Me desenhar um pouco maior
+10 - Criandoo background do nosso jogo - Feito
