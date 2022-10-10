@@ -78,9 +78,13 @@
 		11.4.2 - Falando se ele está na esquerda - Feito
 	11.5 - Fazer ele mudar de direção se ele já passou de 1/3 da tela - Feito
 	11.6 - Eu quero que ele faça isso apenas uma vez - Feito
-	11.7 - Fazendo o inimigo criar o próprio tiro
+	11.7 - Fazendo o inimigo criar o próprio tiro - Feito
+		11.7.1 - Criar a função atirando do inimigo 02 - Feito
 
 12 - Criando o segundo tiro do inimigo
-	12.1 - Importando a sprite
-	12.2 - Criando o objeto
-	12.3 - Fazendo ele herdar o obj_tiro_inimigo_01
+	12.1 - Importando a sprite - Feito
+	12.2 - Criando o objeto - Feito
+	12.3 - Fazendo ele herdar o obj_tiro_inimigo_01 - Feito
+	12.4 - Iniciar indo na direção do player - Feito
+	12.5 - Apontando para a direção do player
+		12.5.1 - Fazer ela ganhar 90 graus ( setinha criada )
