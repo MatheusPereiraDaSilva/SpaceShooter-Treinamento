@@ -72,4 +72,15 @@
 11 - Criando o segundo inimigo
 	11.1 - Importando a sprite - Feito
 	11.2 - Criando o objeto dele - Feito
-	11.3 - Fazendo o inimigo 2 herdar comportamentos do inimigo 1
+	11.3 - Fazendo o inimigo 2 herdar comportamentos do inimigo 1 - Feito
+	11.4 - Fazendo ele mudar de direção ao chegar (mais ou menos) no meio da room - Feito
+		11.4.1 - Falando se ele está na direita - Feito
+		11.4.2 - Falando se ele está na esquerda - Feito
+	11.5 - Fazer ele mudar de direção se ele já passou de 1/3 da tela - Feito
+	11.6 - Eu quero que ele faça isso apenas uma vez - Feito
+	11.7 - Fazendo o inimigo criar o próprio tiro
+
+12 - Criando o segundo tiro do inimigo
+	12.1 - Importando a sprite
+	12.2 - Criando o objeto
+	12.3 - Fazendo ele herdar o obj_tiro_inimigo_01

@@ -11,7 +11,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_tiro_inimigo01",
+    "path": "objects/obj_tiro_inimigo01/obj_tiro_inimigo01.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
