@@ -81,10 +81,35 @@
 	11.7 - Fazendo o inimigo criar o próprio tiro - Feito
 		11.7.1 - Criar a função atirando do inimigo 02 - Feito
 
-12 - Criando o segundo tiro do inimigo
+12 - Criando o segundo tiro do inimigo - Feito
 	12.1 - Importando a sprite - Feito
 	12.2 - Criando o objeto - Feito
 	12.3 - Fazendo ele herdar o obj_tiro_inimigo_01 - Feito
 	12.4 - Iniciar indo na direção do player - Feito
-	12.5 - Apontando para a direção do player
-		12.5.1 - Fazer ela ganhar 90 graus ( setinha criada )
+	12.5 - Apontando para a direção do player - Feito
+		12.5.1 - Fazer ela ganhar 90 graus ( setinha criada ) - Feito
+	12.6 - Indo para a direção do player APENAS se ele existir - Feito
+	
+13 - Criação procedural dos inimigos - Feito
+	13.1 - Fazendo com que o objeto control crie inimigos de tempo em tempo - Feito
+		13.1.1 -  Fazendo com que a posição X e Y dos inimigos criados seja aleatória - Feito
+	13.2 - Criando inimigos diferentes com base no level do jogo - Feito
+	13.3 - Criar ONDA de inimigos - Feito
+	13.4 - Criar ONDAS de inimigos APENAS se não houver inimigos no jogo - Feito
+	13.5 - Criar a quantidade de inimigos com base no level - Feito
+	13.6 - Impedir que inimigos sejam criados no mesmo lugar
+
+14 - Criando o objeto controlador do jogo - Feito
+	14.1 - Ganhando pontos ao destruir o inimigo - Feito
+	
+15 - Criando o sistema de pontos - Feito
+	15.1 - Iniciando a variável pontos - Feito
+	15.2 - Ganhando pontos ao destruir os inimigos - Feito
+	15.3 - Rodando o método de ganhar pontos APENAS após a verificação da existência do inimigo - Feito
+	15.4 - Fazendo com que diferentes inimigos gere diferente pontos - Feito porra (mlk voltou)
+	
+16 - Criando o sistema de level
+	16.1 - Iniciando a variável level - Feito
+	16.2 - Exibindo o level - Feito
+	16.3 - Ganhando level quando eu ganhar um determinado número de pontos - Feito
+	16.4 - Dobrando o valor do próximo level assim que eu atingir o level anterior - Feito

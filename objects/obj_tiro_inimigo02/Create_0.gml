@@ -7,8 +7,11 @@ event_inherited();
 //Definindo a minha velocidade
 speed = 6;
 
-// Achando a direção para a qual eu devo ir
-//Indo para a direção que foi definida no direction
-direction = point_direction(x, y, obj_player.x, obj_player.y);
+if (instance_exists(obj_player))
+{
+	// Achando a direção para a qual eu devo ir
+	//Indo para a direção que foi definida no direction
+	direction = point_direction(x, y, obj_player.x, obj_player.y);
+}
 
-image_angle =  direction;
+image_angle =  direction + 90;

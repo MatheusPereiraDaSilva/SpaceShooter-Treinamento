@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 vspeed = 3;
+pontos = 5
 
 atirando = function() 
 {
