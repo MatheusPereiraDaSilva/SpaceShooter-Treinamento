@@ -8,4 +8,8 @@ image_yscale = 2;
 
 alarm[0] = 4;
 
+alarm[1] = room_speed / 3;
+
+brilho = spr_brilho_tiro1;
+
 cores = choose(c_yellow, c_red, c_fuchsia, c_lime, c_aqua, c_green, c_maroon, c_navy, c_olive);

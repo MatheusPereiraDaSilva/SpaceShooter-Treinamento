@@ -97,7 +97,7 @@
 	13.3 - Criar ONDA de inimigos - Feito
 	13.4 - Criar ONDAS de inimigos APENAS se não houver inimigos no jogo - Feito
 	13.5 - Criar a quantidade de inimigos com base no level - Feito
-	13.6 - Impedir que inimigos sejam criados no mesmo lugar
+	13.6 - Impedir que inimigos sejam criados no mesmo lugar - Feito
 
 14 - Criando o objeto controlador do jogo - Feito
 	14.1 - Ganhando pontos ao destruir o inimigo - Feito
@@ -108,8 +108,41 @@
 	15.3 - Rodando o método de ganhar pontos APENAS após a verificação da existência do inimigo - Feito
 	15.4 - Fazendo com que diferentes inimigos gere diferente pontos - Feito porra (mlk voltou)
 	
-16 - Criando o sistema de level
+16 - Criando o sistema de level - Feito
 	16.1 - Iniciando a variável level - Feito
 	16.2 - Exibindo o level - Feito
 	16.3 - Ganhando level quando eu ganhar um determinado número de pontos - Feito
 	16.4 - Dobrando o valor do próximo level assim que eu atingir o level anterior - Feito
+	
+17 - Deixar o tiro do player "automático" - Feito
+	17.1 - Criando o evento para o tiro - Feito
+	
+18 - Dando levels para o tiro do player
+	18.1 - Criando o sistema de levels - Feito
+	18.2 - Criando o sistema de debug dos levels - Feito
+	18.3 - Fazendo o player dar o segundo tiro no level 2
+
+19 - Criando o segundo tiro do player
+	19.1 - Importar sprite, criar objeto e herdar o tiro 1 - Feito
+	19.2 - Ajustando os efeitos do tiro 2 - Feito
+	19.3 - Criando dois tiros por vez, um em cada asa da nave - Feito
+	19.4 - Fazendo o tiro mudar de direção - Feito
+		19.4.1 - Fazendo o tiro ganhar uma direção - Feito
+		19.4.2 - Fazendo o tiro inverter a direção horizontal - Feito
+	19.5 - Criando os levels do tiro: lv 1, 2, 3, 4,5 e 6 - Feito
+
+20 - Fazendo o player ganhar power up
+	20.1 - Criando a sprite e obj do power up - Feito
+	20.2 - Criar a chance de cada power up - Feito
+	20.3 - Criar o método level up no player - Feito
+	20.4 - Fazer o item colidir com o player e dar o power up para ele - Feito
+	20.5 - Destruir o item ao colidir com o player - Feito
+	20.6 - Criando o impacto do tiro ao ser destruído - Feito
+	20.7 - Fazendo os inimigos terem uma chance de dropar o power up - Feito
+	20.8 - Fazendo o item dropado se mover - Feito
+		20.8.1 - Escolhendo o cor do power up em cada caso - Feito
+	20.9 - Se o item sair da tela ele é destruído - Feito
+	
+21 - Escudo do player
+	21.1 - Importar a sprite e obj do escudo - Feito
+	21.2 - Fazendo o player criar o escudo ao apertar a letra E

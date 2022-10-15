@@ -14,7 +14,7 @@ Meu brilho 59x109 =
 
 //Alterando como o vídeo trata as cores
 gpu_set_blendmode(bm_add);
-draw_sprite_ext(spr_brilho_tiro1, image_index, x, y, image_xscale * 0.7, image_yscale * .7, image_angle, cores, 0.5);
+draw_sprite_ext(brilho, image_index, x, y, image_xscale * 0.7, image_yscale * .7, image_angle, cores, 0.5);
 
 //Voltando ao normal
 gpu_set_blendmode(bm_normal);
