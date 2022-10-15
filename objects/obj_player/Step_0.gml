@@ -35,11 +35,21 @@ if (keyboard_check_pressed(vk_down) && level_tiro > 1){
 	level_tiro -= 1;
 }
 
-show_debug_message(level_tiro);
+//show_debug_message(level_tiro);
 
 
 if(criar_escudo){
 	var shield = instance_create_layer(x, y, "Escudo", obj_escudo);
 	
 	shield.alvo = id;
+}
+
+perde_vida = function(){
+	
+	if(vida > 1){
+		vida--;
+	} else{
+		instance_create_layer(x, y, "Tiros", obj_explosao_inimigos);	
+		instance_destroy();
+	}
 }

@@ -6,6 +6,8 @@ espera_tiro = 5;
 
 level_tiro = 1;
 
+vida = 3;
+
 atirando = function()
 {
 	var fire = keyboard_check(vk_space);

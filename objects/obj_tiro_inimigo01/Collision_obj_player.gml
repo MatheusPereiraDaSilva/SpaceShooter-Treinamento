@@ -4,3 +4,5 @@
 instance_create_layer(x, y, "Tiros", obj_impacto_tiro);
 instance_destroy();
 
+other.perde_vida();
+

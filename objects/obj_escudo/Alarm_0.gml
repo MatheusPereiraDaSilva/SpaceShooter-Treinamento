@@ -1,12 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//Se o alvo for noone se mata
+image_index -= 1;
 
-if(!alvo or !instance_exists(alvo)){
+if(image_index == -1){
 	instance_destroy();
+} else {
+	image_alpha -= .2;
 }
 
-x = alvo.x;
-y = alvo.y;
-
+alarm[0] = room_speed * 2;

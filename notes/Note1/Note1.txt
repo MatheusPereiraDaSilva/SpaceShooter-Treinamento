@@ -145,4 +145,28 @@
 	
 21 - Escudo do player
 	21.1 - Importar a sprite e obj do escudo - Feito
-	21.2 - Fazendo o player criar o escudo ao apertar a letra E
+	21.2 - Fazendo o player criar o escudo ao apertar a letra E - Feito
+	21.3 - Criar uma layer para o escudo e criar ele lá - Feito
+	21.4 - Fazendo o cescudo ficar na mesma posição que o player - Feito
+		21.4.1 - Corrigindo o delay no movimento - Feito
+	21.5 - Destruindo os tiros e os inimigos com o escudo - Feito
+	21.6 - Deixando o escudo um pouco maior - Feito
+	21.7 - Animando o escudo - Feito
+		21.7.1 - Parar a animação no final dela - Feito
+		21.7.2 - Depois de um tempo voltar a imagem - Feito
+			21.7.2.1 - Ao final da animação ativar um alarme em 2 segundos - Feito
+			21.7.2.2 - Ao executar o alarme ele deve voltar 1 imagem - Feito
+	21.8 - Melhorando o efeito no escudo
+		21.8.1 - Dando uma transparência ao escudo - Feito
+		21.9.2 - Dando o blendmode para ele - Feito
+
+22 -Ajustes gerais
+	22.1 - Arrumando as máscaras de colisão - Feito
+	22.2 - Dando colisão entre o player e os inimigos
+
+23 - Fazendo o player morrer
+	23.1 - Dando vida ao player - Feito
+	23.2 - Criando o método perde vida - Feito
+	23.3 - Fazendo ele morrer se a vida for menor do que ou igual a zero - Feito
+	23.4 - Fazendo o player criar a explosão - Feito
+	23.5 - Exibindo a vida do play
