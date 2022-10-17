@@ -15,7 +15,6 @@ right = keyboard_check(ord("D"));
 
 criar_escudo = keyboard_check_pressed(ord("E"));
 
-
 // Positivo - negativo = então vai pro positivo
 // Positivo - negativo = então vai pro negativo
 y += (down - up) * 4;
@@ -38,10 +37,11 @@ if (keyboard_check_pressed(vk_down) && level_tiro > 1){
 //show_debug_message(level_tiro);
 
 
-if(criar_escudo){
-	var shield = instance_create_layer(x, y, "Escudo", obj_escudo);
-	
+if(criar_escudo && escudo > 0){
+	escudo--;
+	var shield = instance_create_layer(x, y, "Escudo", obj_escudo);	
 	shield.alvo = id;
+	show_debug_message(escudo);
 }
 
 perde_vida = function(){

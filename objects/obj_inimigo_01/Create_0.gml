@@ -4,6 +4,7 @@
 vspeed = 3;
 pontos = 5;
 chance = 20;
+shake = 20;
 
 atirando = function() 
 {

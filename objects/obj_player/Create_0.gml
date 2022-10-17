@@ -8,6 +8,8 @@ level_tiro = 1;
 
 vida = 3;
 
+escudo = 3;
+
 atirando = function()
 {
 	var fire = keyboard_check(vk_space);

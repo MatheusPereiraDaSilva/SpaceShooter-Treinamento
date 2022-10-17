@@ -12,6 +12,9 @@ level = 1;
 
 proximo_level = 100;
 
+//Variável de controle do game over
+gameover_seq = noone;
+
 //Criando um método para ganhar pontos
 //@method ganha_pontos(pontos)
 ganha_pontos = function (_pontos) {
