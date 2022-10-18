@@ -26,7 +26,7 @@ atirando();
 
 //Fazendo com que o level do tiro aumente sempre que eu apertar a setinha para cima
 
-if (keyboard_check_pressed(vk_up) && level_tiro < 7){
+if (keyboard_check_pressed(vk_up) && level_tiro < 5){
 	level_tiro += 1;
 }
 

@@ -11,7 +11,9 @@ direction = irandom(359);
 //cores = choose(c_yellow, c_red, c_fuchsia, c_lime, c_aqua, c_green, c_maroon, c_navy, c_olive);
 
 if (chance >= 90){
+	cores = c_maroon;
+}else if (chance >= 65 && chance < 90){
 	cores = c_blue;
 } else {
-	cores = c_red;
+	cores = c_green;
 }
