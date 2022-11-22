@@ -170,3 +170,22 @@
 	23.3 - Fazendo ele morrer se a vida for menor do que ou igual a zero - Feito
 	23.4 - Fazendo o player criar a explosão - Feito
 	23.5 - Exibindo a vida do play
+
+25 - Ajustes gerais
+	25.1 - Randomizando o jogo - Feito
+	25.2 - Impedindo o player de sair da sala - Preferi n fazer
+	25.3 - Fazendo os inimigos droparem o item dps de certa posição - Preferi n fazer
+	25.4 - Melhorando o sistema pra ganhar lv - FDS
+	25.5 - Ganhar pontos caso o player pegue power up - N vou fazer fds
+
+26 - BOSS!!
+	26.1 - Importando as sprites do Boss - Feito
+	26.2 - Criando o objeto Boss - Feito
+	26.3 - Definindo os estados do boss - Feito
+	26.4 - Criando o primeiro estado do boss (criar o tiro 2 enquanto fica parado)
+		26.4.1 - Fazendo o boss criar o tiro 2 do canhão do meio
+		26.4.2 - Criando um intervalo entre os tiros do boss
+		
+	Vários estados do boss
+	Fase invulnerável com recuperação de vida
+	(Fase cria minions agressivos)

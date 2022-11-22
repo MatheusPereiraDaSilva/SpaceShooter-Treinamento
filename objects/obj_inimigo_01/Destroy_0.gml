@@ -11,3 +11,5 @@ if (instance_exists(obj_control)){
 }
 
 dropa_item(chance);
+
+global.total_inimigos++;

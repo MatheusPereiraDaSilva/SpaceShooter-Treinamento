@@ -27,29 +27,25 @@ atirando();
 //Fazendo com que o level do tiro aumente sempre que eu apertar a setinha para cima
 
 if (keyboard_check_pressed(vk_up) && level_tiro < 5){
+	
 	level_tiro += 1;
 }
 
 if (keyboard_check_pressed(vk_down) && level_tiro > 1){
+	
 	level_tiro -= 1;
 }
 
 //show_debug_message(level_tiro);
 
 
-if(criar_escudo && escudo > 0){
-	escudo--;
-	var shield = instance_create_layer(x, y, "Escudo", obj_escudo);	
-	shield.alvo = id;
-	show_debug_message(escudo);
-}
-
-perde_vida = function(){
+if(criar_escudo && escudos > 0 && !meu_escudo){
 	
-	if(vida > 1){
-		vida--;
-	} else{
-		instance_create_layer(x, y, "Tiros", obj_explosao_inimigos);	
-		instance_destroy();
-	}
+	var shield = instance_create_layer(x, y, "Escudo", obj_escudo);	
+	
+	shield.alvo = id;
+	
+	meu_escudo = shield;
+	
+	escudos--;
 }

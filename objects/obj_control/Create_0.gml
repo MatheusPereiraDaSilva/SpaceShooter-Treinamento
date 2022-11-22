@@ -4,6 +4,10 @@
 //Iniciando o alarme em 1 segundo
 alarm[0] = room_speed;
 
+level_completo = false;
+
+boss_ativo = false;
+
 //Iniciando o sistema de pontos
 pontos = 0;
 

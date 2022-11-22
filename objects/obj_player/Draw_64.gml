@@ -13,7 +13,7 @@ draw_sprite_ext(spr_player, 0, 25 + espaco * multiplicador1, altura_gui - 1000, 
 multiplicador1++;
 }
 
-repeat(escudo){
+repeat(escudos){
 draw_sprite_ext(spr_escudo, 0, 25 + espaco * multiplicador2, altura_gui - 955, 0.3, 0.3, 20, c_white, 1);
 
 multiplicador2++;
